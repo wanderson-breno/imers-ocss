@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/xucuyaziyi/3/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wanderson B. C. Silva</title>
+  <link rel="stylesheet" href="css/estilos.css">
+<style id="jsbin-css">
+body {
+  background-image: url("https://lh3.googleusercontent.com/proxy/snb-RWchwnyzxytTSQ8dBfG6-WUXDRTmHOehgU02I-KkyNH0C6Brbf_48GPHlwh2gwBuan4-mag9wqo0vl61RKAauxIg_vuWtWxXfz9ZiJwqdLX18-qlTn662Pc1-71GTV4QXcNwZivaNcPZzx0Qp_obLrm5ZJKZZZ9a27ILbTVuFnQYkVGSJm1jUXhQ7Ff9dYx2gO9Wpb4YwA8y");
+  background-size: auto 100vh;
+  font-family: helvetica; 
+}
+
+.menu{
+  background-color: gray;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.site-subtitle {
+  text-align: center;
+  font-style: bold;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Portfólio</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+    <h1 class="site-title">Wanderson B. C. Silva</h1>
+    <h2 class="site-subtitle">Chief Financial Officer</h2>
+  </header>
+</body>
+</html>
